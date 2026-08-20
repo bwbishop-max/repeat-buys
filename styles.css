@@ -1,0 +1,73 @@
+
+:root {
+  --ink: #1c1917;
+  --muted: #57534e;
+  --paper: #faf6f1;
+  --card: #fffdf9;
+  --line: #e7e0d6;
+  --accent: #9a3412;
+  --accent-2: #1e3a5f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.55;
+}
+a { color: var(--accent-2); }
+header, footer { max-width: 860px; margin: 0 auto; padding: 28px 22px; }
+header {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-size: 1.35rem; font-weight: 700; text-decoration: none; color: var(--ink); letter-spacing: -0.02em; }
+nav a { margin-left: 16px; text-decoration: none; color: var(--muted); font-size: 0.95rem; }
+nav a:hover { color: var(--ink); }
+main { max-width: 860px; margin: 0 auto; padding: 12px 22px 64px; }
+h1 { font-size: 2.1rem; line-height: 1.2; margin: 24px 0 12px; letter-spacing: -0.03em; }
+.lede { font-size: 1.15rem; color: var(--muted); margin: 0 0 28px; }
+.disclosure {
+  background: #f3e8d8;
+  border: 1px solid var(--line);
+  padding: 12px 14px;
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0 0 32px;
+}
+.grid { display: grid; gap: 14px; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 16px 18px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.card:hover { border-color: #c4b8a8; }
+.card h2 { margin: 0 0 6px; font-size: 1.15rem; }
+.meta { color: var(--muted); font-size: 0.88rem; margin: 0 0 8px; }
+article.review {
+  background: var(--card);
+  border: 1px solid var(--line);
+  padding: 22px 22px 18px;
+  margin: 0 0 22px;
+}
+article.review h2 { margin: 0 0 8px; font-size: 1.35rem; }
+.stars { color: var(--accent); letter-spacing: 0.08em; }
+.buy {
+  display: inline-block;
+  margin-top: 10px;
+  background: var(--accent-2);
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  font-size: 0.92rem;
+}
+.buy:hover { opacity: 0.92; }
+.prose p { margin: 0 0 12px; }
+footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
+footer a { color: var(--muted); }
+.small { font-size: 0.92rem; color: var(--muted); }
