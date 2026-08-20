@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bwbishop-max.github.io/repeat-buys/sitemap.xml
