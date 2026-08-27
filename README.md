@@ -1,9 +1,9 @@
 # Repeat Buys
 
-Household reviews of products we actually repurchase.
+Household reviews of products we bought. Repeat purchases first; one-time kept 2026 purchases included.
 
 Live site: https://bwbishop-max.github.io/repeat-buys/
 
-We only write about products we bought, used, and reordered in 2026. No samples. No returns.
+No samples. No returns.
 
 Run by Bruce Bishop in Waco, Texas. Contact: bruce.bishop@gmail.com
